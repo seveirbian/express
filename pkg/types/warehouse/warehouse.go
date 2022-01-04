@@ -16,7 +16,7 @@ import (
 )
 
 const (
-	defatulStoreSize     = 10000
+	defaultStoreSize     = 10000
 	defaultSendStoreSize = 1000
 
 	defaultSorterNum = 3
@@ -46,7 +46,7 @@ func NewWareHouse(ctx context.Context, addr string, port int) (*WareHouse, error
 		wareHouseID:       uuid.String(),
 		wareHouseAddr:     addr,
 		wareHousePort:     port,
-		Store:             make(chan *_package.Package, defatulStoreSize),
+		Store:             make(chan *_package.Package, defaultStoreSize),
 		wareHouseCouriers: sync.Map{},
 	}, nil
 }
