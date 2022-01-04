@@ -2,8 +2,9 @@ package main
 
 import (
 	"context"
-	"express/pkg/types/location"
 	"fmt"
+
+	"github.com/seveirbian/express/pkg/types/location"
 )
 
 func main() {

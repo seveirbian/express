@@ -2,10 +2,11 @@ package location
 
 import (
 	"context"
-	"express/pkg/log"
-	"express/pkg/types/courier"
-	"express/pkg/types/package"
 	"fmt"
+
+	"github.com/seveirbian/express/pkg/log"
+	"github.com/seveirbian/express/pkg/types/courier"
+	_package "github.com/seveirbian/express/pkg/types/package"
 )
 
 const defaultStoreSize = 1000

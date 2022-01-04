@@ -2,13 +2,15 @@ package courier
 
 import (
 	"encoding/json"
-	"express/pkg/log"
-	"express/pkg/types/package"
 	"fmt"
-	"github.com/gorilla/websocket"
 	"net/http"
 	"net/url"
 	"time"
+
+	"github.com/gorilla/websocket"
+
+	"github.com/seveirbian/express/pkg/log"
+	_package "github.com/seveirbian/express/pkg/types/package"
 )
 
 type LocationCourier struct {

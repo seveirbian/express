@@ -2,10 +2,11 @@ package main
 
 import (
 	"context"
-	"express/pkg/types/warehouse"
 	"fmt"
 	"os"
 	"os/signal"
+
+	"github.com/seveirbian/express/pkg/types/warehouse"
 )
 
 func main() {

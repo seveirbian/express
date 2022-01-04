@@ -2,15 +2,17 @@ package warehouse
 
 import (
 	"context"
-	"express/pkg/log"
-	"express/pkg/types/courier"
-	"express/pkg/types/package"
 	"fmt"
+	"net/http"
+	"sync"
+
 	uuid2 "github.com/google/uuid"
 	"github.com/gorilla/mux"
 	"github.com/gorilla/websocket"
-	"net/http"
-	"sync"
+
+	"github.com/seveirbian/express/pkg/log"
+	"github.com/seveirbian/express/pkg/types/courier"
+	_package "github.com/seveirbian/express/pkg/types/package"
 )
 
 const (

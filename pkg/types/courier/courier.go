@@ -2,10 +2,12 @@ package courier
 
 import (
 	"encoding/json"
-	"express/pkg/log"
-	"express/pkg/types/package"
-	"github.com/gorilla/websocket"
 	"time"
+
+	"github.com/gorilla/websocket"
+
+	"github.com/seveirbian/express/pkg/log"
+	_package "github.com/seveirbian/express/pkg/types/package"
 )
 
 type Courier struct {

@@ -1,9 +1,11 @@
 package courier
 
 import (
-	"express/pkg/types/package"
-	"github.com/gorilla/websocket"
 	"time"
+
+	"github.com/gorilla/websocket"
+
+	_package "github.com/seveirbian/express/pkg/types/package"
 )
 
 type WareHouseCourier struct {
